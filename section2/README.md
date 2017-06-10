@@ -9,3 +9,6 @@
 
 # Web APIからのデータ取得
 [説明](./INSTRUCTION4.md)
+
+# cronと定期的なクローリング
+[説明](./INSTRUCTION5.md)
