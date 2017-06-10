@@ -12,11 +12,11 @@ cronを利用すると、スクリプトを自動実行することができる�
   - システムが止まっていれば、管理者にメール通知など
 
 ## 為替情報を毎日保存
-[クジラ外国為替確認API](http://api.aoikujira.com/kawase/)を利用
+[クジラ外国為替確認API](http://api.aoikujira.com/kawase/)を利用  
 [プログラム](./programs/everyday_kawase.py)
 
 ## cronの設定
-本書では「nano」エディタをインストールしているが、今回はvimで行う。
+本書では「nano」エディタをインストールしているが、今回はvimで行う。  
 [vimの使い方](http://qiita.com/honeniq/items/201156650310c4968c3a)
 - cronの設定を行う時は、「crontab」コマンドを使う
 - 起動するときは、「-e」オプションをつける
