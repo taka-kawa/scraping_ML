@@ -193,4 +193,4 @@ with codecs.open("file.csv", "w", "shift-jis") as fp:
 
 [書き込みプログラム](./programs/excel_write.ipynb)
 
-[Pandasを利用](./programs/exce_read_pd.ipynb)
+[Pandasを利用](./programs/excel_read_pd.ipynb)
