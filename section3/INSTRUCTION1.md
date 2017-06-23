@@ -79,7 +79,7 @@ json.dumps(obj)
 ### データ形式
 配列
 
-~~~
+~~~YAML
 - banana
 - kiwi
 
@@ -88,7 +88,7 @@ json.dumps(obj)
 
 配列の中に配列(半角スペースでインデント)
 
-~~~
+~~~YAML
 - Yellow
 -
   - banana
@@ -101,7 +101,7 @@ json.dumps(obj)
 
 ハッシュ
 
-~~~
+~~~YAML
 name: Taro
 age: 4
 color: brown
@@ -109,7 +109,7 @@ color: brown
 
 インデントで階層構造を表現
 
-~~~
+~~~YAML
 name: Taro
 property:
   age: 4
@@ -118,7 +118,7 @@ property:
 
 jsonのような記述方法も
 
-~~~
+~~~YAML
 # コメントもかける
 - name: Taro
   favorites: ["banana", "miso soup"]
@@ -129,7 +129,7 @@ jsonのような記述方法も
 アンカーとエイリアスの利用
 「&name」で印付。「\*name」で参照。
 
-~~~
+~~~YAML
 # 色を定義
 color_define:
   - &color1 "#FF0000"
@@ -164,7 +164,7 @@ PythonでCSVを読み込むときはcsvモジュールを利用する。
 
 読み込み
 
-~~~
+~~~python
 import csv, codecs
 
 # CSVファイルを開く
@@ -179,7 +179,7 @@ for cells in reader:
 
 書き込み
 
-~~~
+~~~python
 import csv, codecs
 
 with codecs.open("file.csv", "w", "shift-jis") as fp:
