@@ -27,6 +27,7 @@ TRAINIG SET LABEL FILE
 TRAINING SET IMAGE FILE
 
 |offset|type|value|description|
+|:--:|:--:|:--:|:--:|
 |0000|32 bit integer|0x00000803|マジックナンバー|
 |0004|32 bit integer|60000|画像アイテムの数|
 |0008|32 bit integer|28|画像のピクセル行数|
