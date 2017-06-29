@@ -2,7 +2,7 @@
 ## ランダムフォレストとは
 ランダムフォレスト(Random Forest, Randomized Trees)は、学習用のデータから多数の決定木を元に多数決で結果を決めるため、高い精度。学習データをランダムにサンプリングし、それによって学習した多数の決定木を使用する。
 
-[ランダムフォレスト](./image/randomforest.png)
+[ランダムフォレスト](./img/randomforest.png)
 
 ## ランダムフォレストを使う
 [毒キノコのデータ](https://archive.ics.uco.edu/ml/datasets/Mushroom):8124種類のキノコの特徴と毒の有無が記載されているデータセット
